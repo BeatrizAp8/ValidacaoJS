@@ -1,0 +1,65 @@
+/* style.css */
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: hsl(0, 0%, 99%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h1{
+    text-align: center;
+}
+
+/* Estilo do formulário  */
+.container {
+    margin-top: 100px;
+    background-color: #BFDDF3;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Essa parte é do estilo do botão  */
+button {
+    background-color: #4169e1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    height: 45px;
+    margin-top: 15px;
+    padding: 0 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Essa parte é do estilo do botão onde ao clicar a cor muda  */
+button:hover {
+    background-color: #5701f8;
+    transform: translateY(-5px);
+}
+
+.campo {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    width: 100%;
+}
